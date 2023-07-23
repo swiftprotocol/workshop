@@ -1,0 +1,55 @@
+{
+  "name": "@swiftprotocol/workshop",
+  "description": "Swift Protocol Workshop @ Nebular Hack Day 2023",
+  "author": "Josef Leventon <josef@swiftprotocol.zone>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swiftprotocol/workshop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/swiftprotocol/workshop/issues"
+  },
+  "homepage": "https://swiftprotocol.zone",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@headlessui/react": "^1.6.6",
+    "@heroicons/react": "^2.0.7",
+    "@interchaininfo/sdk": "^0.2.0",
+    "@swiftprotocol/guard": "^0.4.1",
+    "@vercel/analytics": "^1.0.0",
+    "axios": "^1.4.0",
+    "chain-registry": "^1.18.0",
+    "chakra-react-select": "^4.6.0",
+    "copy-to-clipboard": "^3.3.3",
+    "framer-motion": "^10.13.0",
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.10.1"
+  },
+  "devDependencies": {
+    "@keplr-wallet/cosmos": "^0.11.58",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.5.4",
+    "@tailwindcss/line-clamp": "^0.4.0",
+    "@tailwindcss/typography": "^0.5.4",
+    "@types/node": "^18.7.13",
+    "@types/react": "18.0.9",
+    "@types/react-dom": "18.0.5",
+    "autoprefixer": "^10.4.7",
+    "bufferutil": "^4.0.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2"
+  }
+}
